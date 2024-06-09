@@ -1,0 +1,56 @@
+$font : "Rubik", sans-serif;
+$bg : #FF6A28 ;
+
+%center{
+    font-family: $font;
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.96px;
+        letter-spacing: 0.06em;
+        background-color: $bg;
+        color: white;
+        width: 137px;
+        height: 46px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 11px;
+}
+.ul{
+    display: flex;
+    gap: 52px; 
+    align-items: center;
+    padding-right: 81px;
+    pad
+    .li{
+        text-decoration: none;
+        list-style-type: none;
+        font-family: $font;
+        font-weight: 400;
+        font-size: 18px;
+        
+    }
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.hero{
+    .title{
+        @extend %center;
+    }
+}
+.logo{
+    padding-top: 43px;
+    padding-left: 80px;
+}
+@mixin letter($letter: 5px){
+    letter-spacing: $letter;
+}
+.text{
+    @include letter;
+    
+}

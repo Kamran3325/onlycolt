@@ -1,0 +1,44 @@
+.hero .title {
+  font-family: "Rubik", sans-serif;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.96px;
+  letter-spacing: 0.06em;
+  background-color: #FF6A28;
+  color: white;
+  width: 137px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 11px;
+}
+
+.ul {
+  display: flex;
+  gap: 52px;
+  align-items: center;
+  padding-right: 81px;
+}
+.ul pad .li {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-top: 43px;
+  padding-left: 80px;
+}
+
+.text {
+  letter-spacing: 5px;
+}/*# sourceMappingURL=style.css.map */
